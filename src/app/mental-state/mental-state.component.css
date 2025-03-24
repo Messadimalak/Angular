@@ -1,0 +1,37 @@
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    background: #fefefe;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #bbb;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #6200ea;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
