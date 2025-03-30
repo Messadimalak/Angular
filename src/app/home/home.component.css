@@ -1,72 +1,102 @@
 /*** Header carousel ***/
 @media (max-width: 2000px) {
-    .header-carousel .owl-carousel-item {
-      position: relative;
-      min-height: 700px;
-      width: 100%;  /* Make sure the carousel item takes up the full width */
-    }
-  
-    .header-carousel .owl-carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;  /* Ensure the image takes full width of the container */
-      height: 100%;  /* Ensure the image covers full height */
-      object-fit: cover;  /* Ensure the image covers the entire area */
-    }
-  }
-  
-  /* Navigation buttons */
-  .header-carousel .owl-nav {
-    position: absolute;
-    top: 50%;
-    right: 8%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .header-carousel .owl-nav .owl-prev,
-  .header-carousel .owl-nav .owl-next {
-    margin: 7px 0;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background: transparent;
-    border: 1px solid #FFFFFF;
-    font-size: 22px;
-    transition: .5s;
-  }
-  
-  .owl-carousel {
+  .header-carousel .owl-carousel-item {
     position: relative;
+    min-height: 700px;
+    width: 100%;
   }
-  
-  .owl-prev, .owl-next {
+
+  .header-carousel .owl-carousel-item img {
     position: absolute;
-    top: 50%;
-    z-index: 10;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    cursor: pointer;
-    transform: translateY(-50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  
-  .owl-prev {
-    left: 10px;
-  }
-  
-  .owl-next {
-    right: 10px;
-  }
-  
-  .owl-prev:hover, .owl-next:hover {
-    background: rgba(0, 0, 0, 0.7);
-  }
-  
+}
+
+/* Navigation buttons */
+.header-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+  margin: 7px 0;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #6f6bce;
+  border: 1px solid #6f6bce;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  background: #6C63FF;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+.owl-prev {
+  left: 10px;
+}
+
+.owl-next {
+  right: 10px;
+}
+
+.owl-prev:hover, .owl-next:hover {
+  background: #6f6bce;
+}
+
+body {
+  background-color: #E5E1FB;
+}
+
+h5.text-primary {
+  color: #6f6bce !important;
+}
+
+.btn-primary {
+  background-color: #6f6bce;
+  border-color: #6f6bce;
+}
+
+.btn-primary:hover {
+  background-color: #6f6bce;
+  border-color: #6f6bce;
+}
+
+.btn-light {
+  background-color: #FFFFFF;
+  color: #6f6bce;
+  border: 1px solid #6f6bce;
+}
+
+.btn-light:hover {
+  background-color: #E5E1FB;
+  color: #6f6bce;
+  border-color: #6f6bce;
+}
